@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="0000" disassyCode="00" disassyCodeVariant="A" infoCode="021" infoCodeVariant="A" itemLocationCode="A"/>
+        <language languageIsoCode="en" countryIsoCode="US"/>
+        <issueInfo issueNumber="009" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2016" month="12" day="31"/>
+        <dmTitle>
+          <techName>Front matter</techName>
+          <infoName>Copyright and user agreement</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany enterpriseCode="B6865"><enterpriseName>Aerospace and Defence Industries Association of Europe</enterpriseName></responsiblePartnerCompany>
+      <originator enterpriseCode="B6865"><enterpriseName>Aerospace and Defence Industries Association of Europe</enterpriseName></originator>
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="S1000D" systemDiffCode="F" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <levelledPara>
+        <title>Copyright</title>
+        <para>Copyright (c) 1989, 2004, 2005, 2007, 2008, 2009, 2011, 2012, 2016 by each of the following organizations:</para>
+        <para>
+          <sequentialList>
+            <listItem>
+              <para>Aerospace and Defence Industries Association of Europe - ASD.</para>
+            </listItem>
+            <listItem>
+              <para>Ministries of Defence of the member countries of ASD.</para>
+            </listItem>
+          </sequentialList>
+        </para>
+        <para>All rights reserved. No part of this document may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying and recording, or by any information storage or retrieval system, except as may be expressly permitted by the Copyright Act or in writing by the Publisher.</para>
+        <para>S1000D™ is a trademark owned by ASD.</para>
+        <para>S1000D® is an in EU registered trademark owned by ASD.</para>
+        <para>All correspondence and queries should be directed to:</para>
+        <para>ASD</para>
+        <para>10 Rue Montoyer</para>
+        <para>B-1000 Brussels</para>
+        <para>Belgium</para>
+      </levelledPara>
+      <levelledPara>
+        <title>Special usage rights</title>
+        <para>Irrevocable permission to use, sell, or manufacture from the information contained in this document or any subsequent modification or revision thereof, and the right to reproduce or publish this document or any subsequent modification or revision thereof, in whole or in part, free of charge, is hereby given to the following:</para>
+        <para>
+          <sequentialList>
+            <listItem>
+              <para>National Associations who are members of ASD and all their member companies.</para>
+            </listItem>
+            <listItem>
+              <para>Members of Aerospace Industries Association of America</para>
+            </listItem>
+            <listItem>
+              <para>Members of the ATA e-Business Program</para>
+            </listItem>
+            <listItem>
+              <para>Members of International Coordinating Council of Aerospace Industries Associations (ICCAIA) not included in Categories 1 thru 2 inclusive</para>
+            </listItem>
+            <listItem>
+              <para>Airlines and Armed Forces that are customers of Companies included in Categories 1 thru 3 inclusive</para>
+            </listItem>
+            <listItem>
+              <para>Ministries of Defence of the member countries of ASD</para>
+            </listItem>
+            <listItem>
+              <para>The Department of Defense of the USA</para>
+            </listItem>
+          </sequentialList>
+        </para>
+      </levelledPara>
+      <levelledPara>
+        <title>Agreement for use of the specification S1000D™ suite of information</title>
+        <levelledPara>
+          <title>Definitions</title>
+          <para><emphasis>S1000D™ suite of information</emphasis> means, but is not limited to:</para>
+          <para>
+            <randomList>
+              <listItem>
+                <para>the technical publications specification S1000D</para>
+              </listItem>
+              <listItem>
+                <para>examples (eg, XML instances, PDF files, stylesheets), XML schemas</para>
+              </listItem>
+              <listItem>
+                <para>any other software or information on the page titled "S1000D Downloads" on the website <externalPubRef xlink:href="http://www.s1000d.org"><externalPubRefIdent><externalPubCode>www.s1000d.org</externalPubCode></externalPubRefIdent></externalPubRef>.</para>
+              </listItem>
+            </randomList>
+          </para>
+          <para><emphasis>Copyright Holders</emphasis> means AeroSpace and Defence Industries Association of Europe (ASD) and Ministries of Defence of the member countries of ASD.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Notice to user</title>
+          <para>By using all or any portion of <emphasis>S1000D™ suite of information</emphasis> you accept the terms and conditions of this User Agreement.</para>
+          <para>This User Agreement is enforceable against you and any legal entity that has obtained <emphasis>S1000D™ suite of information</emphasis> or any portion thereof and on whose behalf it is used.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>License to use</title>
+          <para>As long as you comply with the terms of this User Agreement, the Copyright Holders grant to you a non-exclusive license to use <emphasis>S1000D™ suite of information</emphasis>.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Intellectual property rights</title>
+          <para><emphasis>S1000D™ suite of information</emphasis> is the intellectual property of and is owned by the Copyright Holders, AIA and ATA. Except as expressly stated herein, this User Agreement does not grant you any intellectual property right in the <emphasis>S1000D™ suite of information</emphasis> and all rights not expressly granted are reserved by the Copyright Holders, AIA and ATA.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>No modifications</title>
+          <para>You must not modify, adapt or translate, in whole or in part, the <emphasis>S1000D™ suite of information</emphasis> unless otherwise explicitly stated in the specification. You can however add business rules.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>No warranty</title>
+          <para><emphasis>S1000D™ suite of information</emphasis> is being delivered to you "as is". The Copyright Holders do not warrant the performance or result you may obtain by using the <emphasis>S1000D™ suite of information</emphasis>. The Copyright Holders make no warranties, representations or indemnities, express or implied, whether by statute, common law, custom, usage or otherwise as to any matter including without limitation merchantability, integration, satisfactory quality, fitness for any particular purpose, or non-infringement of third parties rights.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Limitation of liability</title>
+          <para>In no event will the Copyright Holders be liable to you for any damages, claims or costs whatsoever or any consequential, indirect or incidental damages, or any lost profits or lost savings or for any claim by a third party, even if the Copyright Holders have been advised of the possibility of such damages, claims, costs, lost profits or lost savings.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Indemnity</title>
+          <para>You agree to defend, indemnify, and hold harmless the Copyright Holders and its parents and affiliates and all of their employees, agents, directors, officers, proprietors, partners, representatives, shareholders, servants, attorneys, predecessors, successors, assigns, and those who have orked on the preparation, publication or distribution of the <emphasis>S1000D™ suite of information</emphasis> from and against any and all claims, proceedings, damages, injuries, liabilities, losses, costs, and expenses (including reasonable attorneys' fees and litigation expenses), relating to or arising from your use of the <emphasis>S1000D™ suite of information</emphasis> or any breach by you of this User Agreement.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Governing law</title>
+          <para>This User Agreement will be governed by and construed in accordance with the laws of the Kingdom of Sweden.</para>
+          <para>Any dispute, controversy or claim arising out of or in connection with this User Agreement, or the breach, termination or invalidity thereof shall be finally settled by arbitrationin accordance with the Rules of the Arbitration Institute of the Stockholm Chamber of Commerce. The arbitral tribunal shall be composed of a sole arbitrator. The place of arbitration shall be Stockholm. The language to be used in the arbitral proceedings shall be English.</para>
+          <para>If the dispute, inclusive of any counterclaims, claims for set-off and interest should comprise of an amount les than SEK 500000, exclusive of VAT, the Rules for Expedited Arbitrations of the Arbitration Institute of the Stockholm Chamber of Commerce shall be applied.</para>
+        </levelledPara>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>

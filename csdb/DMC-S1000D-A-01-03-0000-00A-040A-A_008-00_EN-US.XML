@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule [
+<!NOTATION PNG SYSTEM "PNG" >
+<!ENTITY ICN-S3627-S1000D0601-001-01 SYSTEM "ICN-S3627-S1000D0601-001-01.PNG" NDATA PNG>
+<!ENTITY ICN-S3627-S1000D0602-002-01 SYSTEM "ICN-S3627-S1000D0602-002-01.PNG" NDATA PNG>
+]>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="01" subSystemCode="0" subSubSystemCode="3" assyCode="0000" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/>
+        <language languageIsoCode="en" countryIsoCode="US"/>
+        <issueInfo issueNumber="008" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2016" month="12" day="31"/>
+        <dmTitle>
+          <techName>Chapter 1.3</techName>
+          <infoName>How to use the specification</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="changed">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany enterpriseCode="B6865">
+        <enterpriseName>Aerospace and Defence Industries Association of Europe</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="B6865">
+        <enterpriseName>Aerospace and Defence Industries Association of Europe</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="S1000D" systemDiffCode="F" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <levelledPara>
+        <title>General</title>
+        <para>This chapter gives an overview of:</para>
+        <para>
+          <randomList>
+            <listItem>
+              <para>the structure and content of the specification</para>
+            </listItem>
+            <listItem>
+              <para>The basic production and delivery methods</para>
+            </listItem>
+            <listItem>
+              <para>the fundamental reading rules</para>
+            </listItem>
+          </randomList>
+        </para>
+      </levelledPara>
+      <levelledPara id="par-0002">
+        <title>Field of application</title>
+        <para>S1000D is an international specification, which is designed to cover technical publication and learning information in support of any platform, system or equipment project (air, sea, land vehicle, equipment or facilities, civil or military).</para>
+        <para>The following aspects of technical publication and training information are described:</para>
+        <para>
+          <randomList>
+            <listItem>
+              <para>information generation (authoring)</para>
+            </listItem>
+            <listItem>
+              <para>management within the CSDB</para>
+            </listItem>
+            <listItem>
+              <para>publication generation - page-oriented and IETP</para>
+            </listItem>
+            <listItem>
+              <para>exchange of data modules, publications and training content packages</para>
+            </listItem>
+            <listItem>
+              <para>commenting</para>
+            </listItem>
+          </randomList>
+        </para>
+        <para>The specification addresses two main delivery methods of technical publications and training content packages:</para>
+        <para>
+          <randomList>
+            <listItem>
+              <para>Data exchange - S1000D objects (data modules and supporting objects) delivery for further processing</para>
+            </listItem>
+            <listItem>
+              <para>Publishing - Delivery of publications and training content packages - Information ready to use</para>
+            </listItem>
+          </randomList>
+        </para>
+        <para>Refer to <internalRef internalRefTargetType="irtt07" internalRefId="par-0005"/> for further details on the delivery methods.</para>
+      </levelledPara>
+      <levelledPara>
+        <title>Basic definitions</title>
+        <para>
+          <definitionList>
+            <definitionListItem>
+              <listItemTerm>the Product</listItemTerm>
+              <listItemDefinition>
+                <para>Any platform, system or equipment (air, sea, land vehicle, equipment or facility, civil or military)</para>
+              </listItemDefinition>
+            </definitionListItem>
+            <definitionListItem>
+              <listItemTerm>Project</listItemTerm>
+              <listItemDefinition>
+                <para>The task to develop, maintain and dispose of the Product.</para>
+              </listItemDefinition>
+            </definitionListItem>
+            <definitionListItem>
+              <listItemTerm>technical publications</listItemTerm>
+              <listItemDefinition>
+                <para>Operational and maintenance documentation and data. Technical publications do not include design documentation (eg, design drawings or CAD models).</para>
+              </listItemDefinition>
+            </definitionListItem>
+            <definitionListItem>
+              <listItemTerm>learing information</listItemTerm>
+              <listItemDefinition>
+                <para>Information used in the development of training activities that facilitate learning and the development of new and existing skills.</para>
+              </listItemDefinition>
+            </definitionListItem>
+            <definitionListItem>
+              <listItemTerm>self-contained data module</listItemTerm>
+              <listItemDefinition>
+                <para>A data module which is ready to use without a need for any common information repository data modules. Refer to <internalRef internalRefTargetType="irtt07" internalRefId="par-0004"/>.</para>
+              </listItemDefinition>
+            </definitionListItem>
+            <definitionListItem>
+              <listItemTerm>CIR-dependent data modules</listItemTerm>
+              <listItemDefinition>
+                <para>A data module which needs access to one or more Common Information Repository (CIR) data modules. Refer to <internalRef internalRefTargetType="irtt07" internalRefId="par-0004"/>.</para>
+              </listItemDefinition>
+            </definitionListItem>
+          </definitionList>
+        </para>
+      </levelledPara>
+      <levelledPara id="par-0004">
+        <title>Self-contained vs CIR-dependent data modules</title>
+        <para>There are two basic methods of production (authoring) and delivery (publishing) of data modules and publications:</para>
+        <para>
+          <randomList>
+            <listItem>
+              <para>Using self-contained data modules only. This is the basic method to deliver data modules.</para>
+            </listItem>
+            <listItem>
+              <para>Using common information repository data modules (eg, warnings, cautions, externalized applicability annotations) as a necessary part of the delivery. This method means that the "ordinary" data modules are delivered CIR-dependent.</para>
+            </listItem>
+          </randomList>
+        </para>
+        <para>The CIR provides the ability to further optimize and reuse data. It does this by using:</para>
+        <para>
+          <randomList>
+            <listItem>
+              <para>CIR data modules. Refer to <dmRef><dmRefIdent><dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="04" subSystemCode="1" subSubSystemCode="3" assyCode="0100" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/></dmRefIdent><dmRefAddressItems><dmTitle><techName>Chapter 4.13.1</techName><infoName>Optimizing and reuse - Common information repository concept</infoName></dmTitle></dmRefAddressItems></dmRef>.</para>
+            </listItem>
+            <listItem>
+              <para>Incremental updates of CIR data modules. Refer to <dmRef><dmRefIdent><dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="04" subSystemCode="1" subSubSystemCode="3" assyCode="0200" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/></dmRefIdent><dmRefAddressItems><dmTitle><techName>Chapter 4.13.2</techName><infoName>Optimizing and reuse - Incremental update of CIR data modules</infoName></dmTitle></dmRefAddressItems></dmRef>.</para>
+            </listItem>
+            <listItem>
+              <para>Alternates. Refer to <dmRef><dmRefIdent><dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="04" subSystemCode="1" subSubSystemCode="3" assyCode="0300" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/></dmRefIdent><dmRefAddressItems><dmTitle><techName>Chapter 4.13.3</techName><infoName>Optimizing and reuse - Alternates concept</infoName></dmTitle></dmRefAddressItems></dmRef>.</para>
+            </listItem>
+            <listItem>
+              <para>Container data modules. Refer to <dmRef><dmRefIdent><dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="04" subSystemCode="1" subSubSystemCode="3" assyCode="0400" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/></dmRefIdent><dmRefAddressItems><dmTitle><techName>Chapter 4.13.4</techName><infoName>Optimizing and reuse - Container data module</infoName></dmTitle></dmRefAddressItems></dmRef>.</para>
+            </listItem>
+          </randomList>
+        </para>
+        <note>
+          <notePara>The CIR concept can be implemented in the production process as "internal repositories" and thus not necessarily as CIR data modules.</notePara>
+        </note>
+        <para>The delivery from a production environment using CIR data modules can be done in two ways:</para>
+        <para>
+          <randomList>
+            <listItem>
+              <para>Self contained data modules</para>
+              <para>These data modules include all information needed to understand a description or fulfill the maintenance task. Data from the CIR data modules (eg, warnings, cautions, externalized applicability annotations), if used, are included (not linked) in the data modules to be delivered to the customer or end user.</para>
+              <para>For example, if warnings, cautions and/or applicability CIR are used these must be included in the data modules to which they apply, if self-contained data modules are the deliverables.</para>
+              <note>
+                <notePara>Only a limited set of data from the repository data modules can be included in the data modules.</notePara>
+              </note>
+              <note>
+                <notePara>The CIR data modules can still be delivered together with the self-contained data modules as the repository data modules include useful additional/detailed information which cannot be accommodated in the data modules but used in an IETP.</notePara>
+              </note>
+            </listItem>
+            <listItem>
+              <para>CIR-dependent data modules</para>
+              <para>These data modules are dependent on CIR data modules as pieces of information are "removed" or externalized into one or more CIR data modules prior to delivery to the customer or end user (or an IETP application). The customer, end user or the IETP application, resolves any links before use or during use of the IETP viewer/browser.</para>
+            </listItem>
+          </randomList>
+        </para>
+        <para>The authoring rules differ between the two methods which are explained in the authoring chapters. Refer to Chap 3.9.5.2.1. When using CIR data modules certain information does not require authoring but would require referencing (linking) to the appropriate CIR data module. For example, the name of the support equipment being referenced (linked) to a CIR data module rather than being authored.</para>
+        <para>Refer to <dmRef><dmRefIdent><dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="04" subSystemCode="1" subSubSystemCode="3" assyCode="0100" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/></dmRefIdent><dmRefAddressItems><dmTitle><techName>Chapter 4.13.1</techName><infoName>Optimizing and reuse - Common information repository concept</infoName></dmTitle></dmRefAddressItems></dmRef> for details on the use of the CIR concept.</para>
+        <para>Refer to <dmRef><dmRefIdent><dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="04" subSystemCode="1" subSubSystemCode="3" assyCode="0400" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/></dmRefIdent><dmRefAddressItems><dmTitle><techName>Chapter 4.13.4</techName><infoName>Optimizing and reuse - Container data module</infoName></dmTitle></dmRefAddressItems></dmRef> for details on the use of the container concept.</para>
+      </levelledPara>
+      <levelledPara id="par-0005">
+        <title>Delivery methods</title>
+        <levelledPara>
+          <title>Data exchange</title>
+          <para>The delivery method based on data exchange of S1000D objects (refer to <internalRef internalRefId="par-0002" internalRefTargetType="irtt07"/>) is used when the receiving organization has a CSDB and is expected to process the data and even include changes (eg, due to adaptation of the data modules to internal regulations and needs). The receiver can then produce another interchange package or produce the final ready-to-use publications or SCORM content package modules. Refer to <internalRef internalRefId="fig-0001" internalRefTargetType="irtt01"/>.</para>
+          <para>Data exchange is done between two CDSB, a sender CSDB and a receiver CSDB. The exchange could be between a subcontractor and a prime, or between a contractor and a customer.</para>
+          <para>The data exchange packages consist primarily of data modules and their associated illustrations and multimedia files. Publication modules, SCORM content package modules, and supporting files such as data dispatch notes and data management lists can also be exchanged.</para>
+          <para>The interchange of transfer packages is done as described in <dmRef><dmRefIdent><dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="04" subSystemCode="0" subSubSystemCode="8" assyCode="0000" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/></dmRefIdent><dmRefAddressItems><dmTitle><techName>Chapter 4.8</techName><infoName>Information management - Interchange of data modules</infoName></dmTitle></dmRefAddressItems></dmRef>.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Delivery of ready-to-use publications or training content packages</title>
+          <para>This method is used when the CSDB owner, contactor or customer, delivers a final ready-to-use product to the end user. It can be page-oriented publications delivered as paper publications in binders or electronic publications in PDF, the latter with some linking mechanisms. The deliverable can also be an IETP generated as described in <dmRef><dmRefIdent><dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="07" subSystemCode="0" subSubSystemCode="4" assyCode="0100" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/></dmRefIdent><dmRefAddressItems><dmTitle><techName>Chapter 7.4.1</techName><infoName>Generation of publications - IETP</infoName></dmTitle></dmRefAddressItems></dmRef>, or a training related product. The latter could be used as SCORM, just-in-time training, instructor or student guides.</para>
+          <figure id="fig-0001">
+            <title>Main delivery methods</title>
+            <graphic infoEntityIdent="ICN-S3627-S1000D0601-001-01"/>
+          </figure>
+        </levelledPara>
+        <levelledPara>
+          <title>Delivery with and without CIR</title>
+          <para>The exchange of data modules can be done based on self-contained or on CIR-dependent data modules.</para>
+          <para>An interchange (transfer) package of CIR-dependent data modules must be accompanied with the relevant CIR.</para>
+          <para>An interchange package of self-standing data modules does not necessarily include any CIR. However it can be useful to exchange CIR between partners (subcontractor and contractor) to have consistent data for supplies, support equipment, warnings and cautions.</para>
+          <para><internalRef internalRefId="fig-0002" internalRefTargetType="irtt01"/> shows the interchange of data between different CSDB. It also briefly shows the "data transfer" from a CSDB to an end user IETP via the neutral IETP-X format described in <dmRef><dmRefIdent><dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="07" subSystemCode="0" subSubSystemCode="4" assyCode="0100" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/></dmRefIdent><dmRefAddressItems><dmTitle><techName>Chapter 7.4.1</techName><infoName>Generation of publications - IETP</infoName></dmTitle></dmRefAddressItems></dmRef>.</para>
+          <figure id="fig-0002">
+            <title>Delivery methods for technical publications - Detailed view</title>
+            <graphic infoEntityIdent="ICN-S3627-S1000D0602-002-01"/>
+          </figure>
+        </levelledPara>
+      </levelledPara>
+      <levelledPara>
+        <title>Reading conventions</title>
+        <levelledPara>
+          <title>General</title>
+          <para>Throughout the S1000D specific conventions are used to aid common understanding and to minimize duplication. These conventions are:</para>
+          <para>
+            <definitionList>
+              <definitionListItem>
+                <listItemTerm>Available for projects</listItemTerm>
+                <listItemDefinition>
+                  <para>SNS and attribute values that are available for projects or organizations to give their own specific definitions.</para>
+                </listItemDefinition>
+              </definitionListItem>
+              <definitionListItem>
+                <listItemTerm>Not available for projects</listItemTerm>
+                <listItemDefinition>
+                  <para>SNS, information codes and attribute values that are not available for projects or organizations to give their own specific definitions. Projects or organizations can apply for formal definitions by the normal CPF process.</para>
+                </listItemDefinition>
+              </definitionListItem>
+              <definitionListItem>
+                <listItemTerm>M</listItemTerm>
+                <listItemDefinition>
+                  <para>Mandatory</para>
+                  <para>The attribute affected must be given in the data module and the required entries in the construct must be populated.</para>
+                  <para>(M) is used in some chapters to, for example, explain the use or presentation of specific data.</para>
+                </listItemDefinition>
+              </definitionListItem>
+              <definitionListItem>
+                <listItemTerm>O</listItemTerm>
+                <listItemDefinition>
+                  <para>Optional</para>
+                  <para>The attribute affected can be omitted if a project or organization decides.</para>
+                  <para>(O) is used in some chapters to, for example, explain the use or presentation of specific data.</para>
+                </listItemDefinition>
+              </definitionListItem>
+              <definitionListItem>
+                <listItemTerm>(D)</listItemTerm>
+                <listItemDefinition>
+                  <para>Default value</para>
+                  <para>The affected markup value is the default value.</para>
+                </listItemDefinition>
+              </definitionListItem>
+              <definitionListItem>
+                <listItemTerm>enterprise/company</listItemTerm>
+                <listItemDefinition>
+                  <para>Enterprise is used as the generic term when a company and/or organization is referred to. Company is used as a synonym to enterprise when a business organization is referred to.</para>
+                  <para>The term manufacturer (Product manufacturer, equipment manufacturer, aircraft manufacturer) and supplier are used when needed in context only. These rules are being successively introduced in S1000D.</para>
+                </listItemDefinition>
+              </definitionListItem>
+              <definitionListItem>
+                <listItemTerm>must</listItemTerm>
+                <listItemDefinition>
+                  <para>Mandatory to follow the given rules.</para>
+                </listItemDefinition>
+              </definitionListItem>
+              <definitionListItem>
+                <listItemTerm>name</listItemTerm>
+                <listItemDefinition>
+                  <para>The name of a "thing" such as a part, a component, an assembly. Sometimes called description, nomenclature or designation. Name is used consistently throughout S1000D.</para>
+                </listItemDefinition>
+              </definitionListItem>
+              <definitionListItem>
+                <listItemTerm>can, could</listItemTerm>
+                <listItemDefinition>
+                  <para>Options to be followed by project or organization decision.</para>
+                </listItemDefinition>
+              </definitionListItem>
+            </definitionList>
+          </para>
+        </levelledPara>
+        <levelledPara>
+          <title>Permissible characters in codes and numbers</title>
+          <para>Throughout the S1000D the following definitions on permissible characters (alphas and numbers) when used in codes (eg, data module codes, publication module codes, learn codes, learn event codes, data management lists) and numbers (eg, issue numbers) are given below.</para>
+          <levelledPara>
+            <title>Alpha characters</title>
+            <para>The code abbreviation is "A".</para>
+            <para>The permissible characters are:</para>
+            <para>
+              <randomList>
+                <listItem>
+                  <para>"A" thru "Z" in uppercase. It is recommended that the use of "I" and "O" is avoided.</para>
+                </listItem>
+              </randomList>
+            </para>
+          </levelledPara>
+          <levelledPara>
+            <title>Numeric characters</title>
+            <para>The code abbreviation is "X".</para>
+            <para>The permissible characters are:</para>
+            <para>
+              <randomList>
+                <listItem>
+                  <para>"0" thru "9"</para>
+                </listItem>
+              </randomList>
+            </para>
+            <note>
+              <notePara>"NN" is frequently used to indicate a numerical sequence starting from "00" or "01". Details for the interpretation are given where used in the specification.</notePara>
+            </note>
+          </levelledPara>
+          <levelledPara>
+            <title>Alphanumeric</title>
+            <para>The code abbreviation is "Y".</para>
+            <para>The permissible characters are:</para>
+            <para>
+              <randomList>
+                <listItem>
+                  <para>"0" thru "9"</para>
+                </listItem>
+                <listItem>
+                  <para>"A" thru "Z" in uppercase. It is recommended that the use of "I" and "O" is avoided.</para>
+                </listItem>
+              </randomList>
+            </para>
+          </levelledPara>
+          <levelledPara>
+            <title>Specific alpha character values</title>
+            <para>When an alpha character is given in a data module code that is intended to indicate a value, it is presented by underlining the character. For example, <emphasis emphasisType="em03">A</emphasis> means the value of "A" and not an alpha character. "A" means an alpha character and not the value "A".</para>
+          </levelledPara>
+          <levelledPara>
+            <title>Use of the alpha characters "I" and "O"</title>
+            <para>
+              <emphasis>Business rule decision point BRDP-S1-00001 - USe of "I" and "O":</emphasis>
+            </para>
+            <para>
+              <randomList>
+                <listItem>
+                  <para>Decide whether and when to use the alpha characters "I" and "O".</para>
+                </listItem>
+              </randomList>
+            </para>
+          </levelledPara>
+        </levelledPara>
+      </levelledPara>
+      <levelledPara>
+        <title>Use of, and application for CAGE codes</title>
+        <para>The specification uses CAGE (Commercial and Government Entity) codes to uniquely identity enterprises and organizations. The values of some elements and attributes mandate that a registered CAGE code is used, for example, when using the identification extension in <emphasis>DME</emphasis> and <emphasis>PME</emphasis> (refer to Chap 4.12), when using the CAGE code based <emphasis>ICN</emphasis> (refer to Chap 4.4), when using <emphasis>data management lists</emphasis> (refer to Chap 4.5) and when commenting using the <emphasis>Commenting Schema</emphasis> (refer to Chap 4.6). To perform a <emphasis>file based transfer</emphasis> (refer to Chap 7.5.1) you also need a CAGE code.</para>
+        <para>As it is essential to uniquely identify parts in many cases, the specification based the identification of those parts on the CAGE code.</para>
+        <para>
+          <emphasis>Business rule decision point BRDP-S1-00002 - List of permitted CAGE codes and/or names to be used for the technical publication project:</emphasis>
+        </para>
+        <para>
+          <randomList>
+            <listItem>
+              <para>Create a list of permitted CAGE codes and/or names of the enterprises.</para>
+            </listItem>
+          </randomList>
+        </para>
+        <para>Enterprises and organizations that do not have a CAGE code, can apply for a code at their National Codification Bureau (NCB) or at:</para>
+        <para>
+          <verbatimText verbatimStyle="vs51">NSPA
+S2000M Administrator
+L-8325 CAPELLEN
+G.-D. Luxembourg
+Email: Spec2000M@nspa.nato.int</verbatimText>
+        </para>
+      </levelledPara>
+      <levelledPara>
+        <title>Acronyms</title>
+        <para>Throughout the S1000D common acronyms are used to aid understanding and to minimize duplication. These acronyms are:</para>
+        <para>
+          <definitionList>
+            <definitionListItem>
+              <listItemTerm>2D</listItemTerm>
+              <listItemDefinition>
+                <para>Two Dimensional</para>
+              </listItemDefinition>
+            </definitionListItem>
+          </definitionList>
+        </para>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>

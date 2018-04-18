@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<defaults>
+  <default ident="languageIsoCode" value="en"/>
+  <default ident="countryIsoCode" value="US"/>
+  <default ident="responsiblePartnerCompany" value="Aerospace and Defence Industries Association of Europe"/>
+  <default ident="originator" value="Aerospace and Defence Industries Association of Europe"/>
+</defaults>

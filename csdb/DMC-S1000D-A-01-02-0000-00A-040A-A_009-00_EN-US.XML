@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule [
+<!NOTATION PNG SYSTEM "PNG" >
+<!ENTITY ICN-S1000D-A-010200-0-F6117-00001-A-004-01 SYSTEM "ICN-S1000D-A-010200-0-F6117-00001-A-004-01.PNG" NDATA PNG>
+]>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="01" subSystemCode="0" subSubSystemCode="2" assyCode="0000" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/>
+        <language languageIsoCode="en" countryIsoCode="US"/>
+        <issueInfo issueNumber="009" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2016" month="12" day="31"/>
+        <dmTitle>
+          <techName>Chapter 1.2</techName>
+          <infoName>Scope</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany enterpriseCode="B6865">
+        <enterpriseName>Aerospace and Defence Industries Association of Europe</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="B6865">
+        <enterpriseName>Aerospace and Defence Industries Association of Europe</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="S1000D" systemDiffCode="F" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <levelledPara>
+        <title>General</title>
+        <para>This chapter gives a basic overview of the S1000D scope. Refer to <internalRef internalRefTargetType="irtt01" internalRefId="fig-0001"/>.</para>
+      </levelledPara>
+      <levelledPara>
+        <title>Scope</title>
+        <para>S1000D covers the planning and management, production, exchange, distribution and use of technical documentation that support the life cycle of any civil or military project. Projects include air, land and sea vehicles or equipment (hereafter known as the Product).</para>
+        <para>The specification adopts International Standards Organization (ISO), Continuous Acquisition and Life-cycle Support (CALS) and World Wide Web Consortium (W3C) standards, in which information is generated in a neutral format. This means that it can be implemented on different and often disparate systems. Neutrality, added to the concept of modularization, makes the specification applicable to the wider international community.</para>
+        <para>Information produced in accordance with S1000D is created in a modular form, called a "data module". A data module is defined as "the smallest self-contained information unit within a technical publication".</para>
+        <para>A data module contains the following information:</para>
+        <para>
+          <randomList>
+            <listItem>
+              <para>An identification and status section with all management information</para>
+            </listItem>
+            <listItem>
+              <para>A content section</para>
+            </listItem>
+          </randomList>
+        </para>
+        <para>The data module can support the following types of content and constructs:</para>
+        <para>
+          <randomList>
+            <listItem>
+              <para>Applicability cross-reference information</para>
+            </listItem>
+            <listItem>
+              <para>Business rules information</para>
+            </listItem>
+            <listItem>
+              <para>Common information repository</para>
+            </listItem>
+            <listItem>
+              <para>Conditions cross-reference information</para>
+            </listItem>
+            <listItem>
+              <para>Container information</para>
+            </listItem>
+            <listItem>
+              <para>Crew/operator information</para>
+            </listItem>
+            <listItem>
+              <para>Descriptive information</para>
+            </listItem>
+            <listItem>
+              <para>Fault information</para>
+            </listItem>
+            <listItem>
+              <para>Front matter information</para>
+            </listItem>
+            <listItem>
+              <para>IPD information</para>
+            </listItem>
+            <listItem>
+              <para>Maintenance checklists and inspections</para>
+            </listItem>
+            <listItem>
+              <para>Procedural information</para>
+            </listItem>
+            <listItem>
+              <para>Process information</para>
+            </listItem>
+            <listItem>
+              <para>Products cross-reference information</para>
+            </listItem>
+            <listItem>
+              <para>Service bulletin information</para>
+            </listItem>
+            <listItem>
+              <para>Training information</para>
+            </listItem>
+            <listItem>
+              <para>Wiring data information</para>
+            </listItem>
+            <listItem>
+              <para>Wiring data description information</para>
+            </listItem>
+          </randomList>
+        </para>
+        <para>All data modules applicable to the Product are gathered and managed in a database, which is hereafter referred to as the CSDB.</para>
+        <para>A benefit of the CSDB is to enable production of platform-independent output in either page-oriented or IETP.</para>
+        <para>Data managed in S1000D is not duplicated in the CSDB. Data modules enable data to be stored once and used for multiple outputs. A single change to an individual data module can update multiple outputs and multiple deliveries.</para>
+        <para>Other benefits of using S1000D are that:</para>
+        <para>
+          <randomList>
+            <listItem>
+              <para>it is based on international neutral standards</para>
+            </listItem>
+            <listItem>
+              <para>it reduces maintenance costs for technical information</para>
+            </listItem>
+            <listItem>
+              <para>it transforms data into configuration items</para>
+            </listItem>
+            <listItem>
+              <para>it allows subsets of information and electronic output between disparate systems</para>
+            </listItem>
+            <listItem>
+              <para>many different output formats can be generated from the same base data thus ensuring safety of data and that every user regardless of output form is getting the same message</para>
+            </listItem>
+            <listItem>
+              <para>the S1000D data module concept can be applied to legacy data</para>
+            </listItem>
+            <listItem>
+              <para>it is non-proprietary and allows neutral delivery of data and management of data</para>
+            </listItem>
+            <listItem>
+              <para>the specification incorporates the planning and management, production, exchange, distribution and use of data in electronic form for different types of output (from page oriented to IETP) as shown in <internalRef internalRefTargetType="irtt01" internalRefId="fig-0001"/></para>
+            </listItem>
+          </randomList>
+        </para>
+        <figure id="fig-0001">
+          <title>S1000D scope</title>
+          <graphic infoEntityIdent="ICN-S1000D-A-010200-0-F6117-00001-A-004-01"/>
+        </figure>
+        <para>More information on S1000D and ASD publications can be found at <externalPubRef xlink:href="http://www.s1000d.org"><externalPubRefIdent><externalPubTitle>www.s1000d.org</externalPubTitle></externalPubRefIdent></externalPubRef> and <externalPubRef xlink:href="http://www.asd-europe.org"><externalPubRefIdent><externalPubTitle>www.asd-europe.org</externalPubTitle></externalPubRefIdent></externalPubRef>, respectively.</para>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>

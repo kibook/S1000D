@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="0000" disassyCode="00" disassyCodeVariant="A" infoCode="00U" infoCodeVariant="A" itemLocationCode="A"/>
+        <language languageIsoCode="en" countryIsoCode="US"/>
+        <issueInfo issueNumber="009" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2016" month="12" day="31"/>
+        <dmTitle>
+          <techName>Front matter</techName>
+          <infoName>Highlights</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany enterpriseCode="B6865">
+        <enterpriseName>Aerospace and Defence Industries Association of Europe</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="B6865">
+        <enterpriseName>Aerospace and Defence Industries Association of Europe</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="S1000D" systemDiffCode="F" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <levelledPara>
+        <title>General</title>
+        <para>Changes that are included  in this Issue 4.2 are brought about by Change Proposal Forms (CPF) and White Papers (WP) that are approved by the Steerign Committee (SC).</para>
+        <levelledPara>
+          <title>Scope</title>
+          <para>The chapters that are affected in this Issue 4.2 are listed herein together with the CPF and WP and their identification that called for changes.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Deleted chapters</title>
+          <para>CPF 2013-004GB called for the listed referenced specifications to be moved from Chap 4.2.2 to Chap 2.2. This left Chap 4.2.1 as an orphan. Therefore, the content of Chap 4.2.1 has been moved to Chap 4.2.</para>
+          <para>Issue 4.1 included past issue summaries of changes to:</para>
+          <para>
+            <randomList>
+              <listItem>
+                <para>data module Schemas - Chap 7.3.1.1.1 thru Chap 7.3.1.1.6</para>
+              </listItem>
+              <listItem>
+                <para>backwards compatability - Chap 7.3.1.4.1 thru Chap 7.3.1.4.7</para>
+              </listItem>
+              <listItem>
+                <para>publication module Schema - Chap 7.4.2.1.1 thru Chap 7.4.2.1.6</para>
+              </listItem>
+            </randomList>
+          </para>
+          <note>
+            <notePara>In Issue 4.1, Chap 7.4.2.2, past issue summaries of changes to the SCORM content package module Schema were included. These summaries are also removed.</notePara>
+          </note>
+          <para>Readers requiring this historical information are referred to Issue 4.1.</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Business rule decision points</title>
+          <para>There have been a large number of changes to Business Rule Decision Points. These include:</para>
+          <para>
+            <randomList>
+              <listItem>
+                <para>23 new BRDPs are introduced. Refer to <internalRef internalRefId="tab-0013" internalRefTargetType="irtt02"/>.</para>
+              </listItem>
+              <listItem>
+                <para>136 BRDPs are deleted. Refer to <internalRef internalRefId="tab-0014" internalRefTargetType="irtt02"/>.</para>
+              </listItem>
+              <listItem>
+                <para>128 BRDPs have been reworded to some extent. Refer to <dmRef><dmRefIdent><dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="02" subSystemCode="0" subSubSystemCode="5" assyCode="0300" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/></dmRefIdent></dmRef>.</para>
+              </listItem>
+            </randomList>
+          </para>
+        </levelledPara>
+        <levelledPara>
+          <title>Editorial changes</title>
+          <para>There have been a significant amount of editorial changes to all chapters. All chapters, whether affected by a CPF or WP, or not have:</para>
+          <para>
+            <randomList>
+              <listItem>
+                <para>been changed in order to comply with the new Authoring Rules</para>
+              </listItem>
+              <listItem>
+                <para>had the new S-Series template applied</para>
+              </listItem>
+              <listItem>
+                <para>had previous change bars removed</para>
+              </listItem>
+              <listItem>
+                <para>been up-issued from Issue 4.1</para>
+              </listItem>
+            </randomList>
+          </para>
+          <para>Editorial changes are not changed marked in this Issue 4.2.</para>
+        </levelledPara>
+      </levelledPara>
+      <levelledPara>
+        <title>Content</title>
+        <para>There are eight CPFs that called for changes to a significant number of chapters. Rather than list these repeatedly for every chapter, they are listed separately. <internalRef internalRefId="tab-0002" internalRefTargetType="irtt02"/> lists the changes that are common to many chapters.</para>
+        <para>Highlights of changes to the front matter and chapter 1 through chapter 9 (and their subchapters), are provided. For:</para>
+        <para>
+          <randomList>
+            <listItem>
+              <para>front matter, refer to <internalRef internalRefId="tab-0003" internalRefTargetType="irtt02"/></para>
+            </listItem>
+            <listItem>
+              <para>chapter 1, refer to <internalRef internalRefId="tab-0004" internalRefTargetType="irtt02"/></para>
+            </listItem>
+            <listItem>
+              <para>chapter 2, refer to <internalRef internalRefId="tab-0005" internalRefTargetType="irtt02"/></para>
+            </listItem>
+            <listItem>
+              <para>chapter 3, refer to <internalRef internalRefId="tab-0006" internalRefTargetType="irtt02"/></para>
+            </listItem>
+            <listItem>
+              <para>chapter 4, refer to <internalRef internalRefId="tab-0007" internalRefTargetType="irtt02"/></para>
+            </listItem>
+            <listItem>
+              <para>chapter 5, refer to <internalRef internalRefId="tab-0008" internalRefTargetType="irtt02"/></para>
+            </listItem>
+            <listItem>
+              <para>chapter 6, refer to <internalRef internalRefId="tab-0009" internalRefTargetType="irtt02"/></para>
+            </listItem>
+            <listItem>
+              <para>chapter 7, refer to <internalRef internalRefId="tab-0010" internalRefTargetType="irtt02"/></para>
+            </listItem>
+            <listItem>
+              <para>chapter 8, refer to <internalRef internalRefId="tab-0011" internalRefTargetType="irtt02"/></para>
+            </listItem>
+            <listItem>
+              <para>chapter 9, refer to <internalRef internalRefId="tab-0012" internalRefTargetType="irtt02"/></para>
+            </listItem>
+          </randomList>
+        </para>
+        <table id="tab-0002" pgwide="1">
+          <title>Common changes</title>
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry>
+                  <para>CPF No</para>
+                </entry>
+                <entry>
+                  <para>Summary of changes</para>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <para>CPF 2012-020US</para>
+                </entry>
+                <entry>
+                  <para>Added element <verbatimText verbatimStyle="vs12">&lt;derivativeClassification&gt;</verbatimText> and attribute <verbatimText verbatimStyle="vs13">derivativeClassificationRefId</verbatimText></para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>CPF 2013-012NN</para>
+                </entry>
+                <entry>
+                  <para>Consistent use of (M), (C) and (O) for elements and attributes.</para>
+                  <para>Elements are from now on not marked with (M), (O) or (C). The information is given in the XML illustrations. M and O are used for attributes.</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>CPF 2013-016NN</para>
+                </entry>
+                <entry>
+                  <para>Consistent use of company - enterprise - manufacturer - supplier - vendor.</para>
+                  <para>Reading conventions of enterprise/company introduced to clarify the use of "company", "enterprise", "manufacturer", "business organization", etc.</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>CPF 2013-024NN</para>
+                </entry>
+                <entry>
+                  <para>Illustration observations including correction of ICN and update of titles</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>CPF 2013-033AA</para>
+                </entry>
+                <entry>
+                  <para>Corrected inconsitencies in graphic style</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>CPF 2013-008IGBRTT</para>
+                </entry>
+                <entry>
+                  <para>BRDP cleanup for Issue 4.2</para>
+                  <para>This included rewording, move of BRDP to other chapter and deletion of duplication, for example on optional attributes. Refer to <dmRef>
+  <dmRefIdent>
+    <dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="02" subSystemCode="0" subSubSystemCode="5" assyCode="0300" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/>
+  </dmRefIdent>
+</dmRef>.</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>CPF 2014-009IGBRTT</para>
+                </entry>
+                <entry>
+                  <para>Added unique ID inside default BREX and references to default BREX rules in chapter text</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>CPF 2016-006NN</para>
+                </entry>
+                <entry>
+                  <para>Reduction of BRDPs on configurable attributes</para>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <table id="tab-0003" pgwide="1">
+          <title>Front Matter</title>
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry>
+                  <para>Chapter</para>
+                </entry>
+                <entry>
+                  <para>Summary of changes</para>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <para>Copyright</para>
+                </entry>
+                <entry>
+                  <para>CPF 2013-019AA:</para>
+                  <para>
+                    <randomList>
+                      <listItem>
+                        <para>Members of the ATA e-Business Program added to the list of special usage rights</para>
+                      </listItem>
+                    </randomList>
+                  </para>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <table id="tab-0004" pgwide="1">
+          <title>Chap 1</title>
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry>
+                  <para>Chapter</para>
+                </entry>
+                <entry>
+                  <para>Summary of changes</para>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <para>Chap 1.3</para>
+                </entry>
+                <entry>
+                  <para>WP-2016-08-12NN:</para>
+                  <para>
+                    <randomList>
+                      <listItem>
+                        <para>Removed ADL from references</para>
+                      </listItem>
+                    </randomList>
+                  </para>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <table id="tab-0005" pgwide="1">
+          <title>Chap 2</title>
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry>
+                  <para>Chapter</para>
+                </entry>
+                <entry>
+                  <para>Summary of changes</para>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <para>Chap 2.2</para>
+                </entry>
+                <entry>
+                  <para>CPF2013-004GB, CPF 2013-018NN and others:</para>
+                  <para>
+                    <randomList>
+                      <listItem>
+                        <para>Table 2 updated to reflect the referenced standards and specification throughout the specification</para>
+                      </listItem>
+                    </randomList>
+                  </para>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>

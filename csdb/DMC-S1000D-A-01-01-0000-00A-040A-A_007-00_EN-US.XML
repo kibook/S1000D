@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="01" subSystemCode="0" subSubSystemCode="1" assyCode="0000" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/>
+        <language languageIsoCode="en" countryIsoCode="US"/>
+        <issueInfo issueNumber="007" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2016" month="12" day="31"/>
+        <dmTitle>
+          <techName>Chapter 1.1</techName>
+          <infoName>Purpose</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany enterpriseCode="B6865">
+        <enterpriseName>Aerospace and Defence Industries Association of Europe</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="B6865">
+        <enterpriseName>Aerospace and Defence Industries Association of Europe</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="S1000D" systemDiffCode="F" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <levelledPara>
+        <title>General</title>
+        <para>This chapter gives a basic overview of the S1000D purpose including the history of the development.</para>
+      </levelledPara>
+      <levelledPara>
+        <title>Purpose</title>
+        <para>S1000D is an international specification for the procurement and production of technical publications. While the title restricts its use to technical publications, it has been found through application that the principles of the specification can be applied to non-technical publications.</para>
+        <para>This specification was initially developed by the AeroSpace and Defence Industries Association of Europe (ASD). This issue has been jointly produced by ASD, the Aerospace Industries Association of America (AIA), and the Air Transport Association of America (ATA) together with their customers. These form the S1000D Council and the S1000D Steering Committee to establish standards for documentation agreed by the participating parties.</para>
+        <para>From Issue 2, the scope has been extended to include land and sea specific applications. The specification can also be used for the support of any type of equipment including both civil and military products. All items in this specification are referred to as "the Product".</para>
+        <levelledPara>
+          <title>Background</title>
+          <para>The concept of this specification was originated in the aerospace field within ASD in early 1980s. At that time, most civil aviation projects were being documented in accordance with the ATA 100 specification. Military projects in Europe were supported by documentation produced to various national military specifications, although some attempts of rationalization had been made in certain collaborative projects. Thus, by comparison, the situation for the support of civil aircraft was more stable and manageable. The multiplicity of existing military procedures and the continual introduction of new procedures were producing ever greater problems and increased costs for industry and its military customers, as both became more reliant upon the use of complex computer-based systems in the field of technical publication support activities.</para>
+          <para>This situation, added to the increasing number of collaborative projects and the necessity to recognize the developments in Integrated Logistics Support (ILS) and in information technology, prompted the Customer and Product Support Committee (CPSC) of ASD to establish a Documentation Working Group (DWG). This DWG consisted of European industry representatives tasked to report on current documentation practices and to recommend a unified method of documentation for air vehicle projects.</para>
+          <para>The DWG recognized that the only internationally accepted specification in the aerospace field, although not formally recognized as an international standard, was ATA 100. It was therefore decided to attempt to harmonize civil and military documentation standards using ATA 100 as a source document. Many national military specifications used by the participating nations have their roots in the United States (US) Mil Specs and these were therefore to be considered. The DWG invited the nations to provide military representatives who would participate in its activities and established a subsidiary, which was designated the Augmented Documentation Working Group (ADWG).</para>
+          <para>This group realized that their attempts to harmonize specifications and to establish commonality wherever possible had the following major advantages:</para>
+          <para>
+            <randomList>
+              <listItem>
+                <para>cost saving in information generation - avoidance of duplications</para>
+              </listItem>
+              <listItem>
+                <para>more economic support planning</para>
+              </listItem>
+              <listItem>
+                <para>cheaper deliverable publications</para>
+              </listItem>
+              <listItem>
+                <para>uniformity of standard for participants in the project</para>
+              </listItem>
+              <listItem>
+                <para>standard format for data exchange to exploit future developments</para>
+              </listItem>
+              <listItem>
+                <para>enhanced interoperability</para>
+              </listItem>
+              <listItem>
+                <para>improved opportunity for clarity - use of ASD Simplified Technical English (ASD-STE100®)</para>
+              </listItem>
+              <listItem>
+                <para>easier and cheaper translation also possible because of ASD-STE100®</para>
+              </listItem>
+            </randomList>
+          </para>
+          <para>The ADWG established task groups which undertook studies of specific areas to enable the development of the CSDB proposals which are contained in this specification. The final task was the incorporation of these international CSDB proposals into this publications specification which has been agreed by the participating nations.</para>
+          <para>The ADWG was later renamed Technical Publication Specification Maintenance Group (TPSMG). Their duties have now been taken over by the S1000D Council and the S1000D Steering Committee, which have the full responsibility of maintaining the specification. The S1000D Council and the S1000D Steering Committee includes members from ministries and industry.</para>
+          <para>To take care of the rapid development of information technology, a group of specialists, the Electronic Publications Working Group (EPWG) supports the S1000D Steering Committee.</para>
+          <para>In 2003, a Memorandum of Understanding (MOU) was signed between ASD and AIA establishing the parameters for an agreement between the two organizations harmonizing US and European guidance related to technical publications data.</para>
+          <para>In 2004, the ASD signed an MOU with ADL. The two organizations are working together to harmonize the requirements of the Shareable Content Object Reference Model (SCORM).</para>
+          <para>In 2005, a MOU was signed between ASD, AIA and ATA in order to promote common, interoperable, international technical publication data in the Aerospace and Defense industries and to work in concert on the joint development and maintenance of S1000D.</para>
+          <para>In 2007, the MOU between ASD, AIA and ATA has been renewed to enable the three organizations to jointly further develop, maintain and promote the S1000D in the international arena.</para>
+        </levelledPara>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>
